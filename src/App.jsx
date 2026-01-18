@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-        <Router>
+        <Router basename={import.meta.env.PROD ? "/f8-fullstack-day46be" : ""}>
             <Routes>
                 <Route path='/' element={<Navigator/>}></Route>
                 <Route path = "/todolist" element={<TodoList/>}></Route>

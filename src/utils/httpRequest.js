@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const httpRequest = axios.create({
-    baseURL:"http://localhost:3000/api"
+    baseURL:"https://backend46.onrender.com/api"
 })
 
 httpRequest.interceptors.response.use((response) => {

@@ -12,7 +12,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-   base: process.env.NODE_ENV === "production" ? "/f8-fullstack-day44" : "/",
+   base: process.env.NODE_ENV === "production" ? "/f8-fullstack-day46be" : "/",
    resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
